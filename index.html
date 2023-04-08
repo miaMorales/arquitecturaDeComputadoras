@@ -1,0 +1,298 @@
+<!-- HTML introductorio
+    Autor: Alma Rosaura Mía Morales Rmz. -->
+    <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- Swiper CSS -->
+            <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    
+            <!-- CSS -->
+            <link rel="stylesheet" href="css/Styles.css">
+
+            <!-- Iconos -->
+            <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel = "icon" href = "media/UNIDADES/logo.png">
+            <title> Arquitectura de Computadoras </title>                                 
+        </head>
+        <body class = "index">
+            <div class="contenedor">
+                <header class = "header2">
+                    <div class = "wrapper">
+                        <div class="logo">
+                            Arquitectura de Computadoras 
+                            <img src = "media/UNIDADES/logo2.png" style="width: 15%; margin-bottom: -30px;">
+                        </div>
+                        <nav>
+                            <a href = '#'>Inicio</a>
+                            <a href = '#'>Información General</a>
+                        </nav>
+                    </div>
+                </header>
+                <section class = "contenido wrapper">
+                    <div class="slide-container swiper">
+                        <div class="slide-content">
+                            <div class="card-wrapper swiper-wrapper">
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+            
+                                        <div class="card-image">
+                                            <img src="media/UNIDADES/u1.png" alt="" class="card-img">
+                                        </div>
+                                    </div>
+            
+                                    <div class="card-content">
+                                        <h2 class="name">Unidad 1</h2>
+                                        <p class="description">
+                                            <dl>
+                                            <dt>1.1 Modelos de arquitecturas de cómputo.</dt>
+                                                <dd>
+                                                    <p class = "description">
+                                                        1.1.1 Clásicas. <br> 
+                                                        1.1.2 Segmentadas. <br>
+                                                        1.1.3 De multiprocesamiento. <br>
+                                                    </p>
+                                                </dd>
+                                            <dt> 1.2 Análisis de los componentes.</dt>
+                                            <dt> &nbsp; &nbsp; 1.2.1 CPU.</dt>
+                                                <p class="description">
+                                                    1.2.1.1 Arquitecturas. <br> 
+                                                    1.2.1.2 Tipos. <br>
+                                                    1.2.1.3 Características. <br>
+                                                    1.2.1.4 Funcionamiento(ALU, unidad de control, Registros y buses internos) <br>
+                                                </p>
+                                            <dt> &nbsp; &nbsp; 1.2.2 Memoria.</dt>
+                                                <p class = "description">
+                                                    1.2.2.1 Conceptos básicos del manejo de lamemoria. <br>
+                                                    1.2.2.2 Memoria principal semiconductora. <br>
+                                                    1.2.2.3 Memoria caché <br>
+                                                </p>
+                                            <dt> &nbsp; &nbsp; 1.2.3 Manejo de la entrada/salida. </dt>
+                                                <p class = "description">
+                                                    1.2.3.1 Módulos de entrada/salida. <br>
+                                                    1.2.3.2 Entrada/salida programada. <br>
+                                                    1.2.3.3 Entrada/salid"mediante interrupciones. <br>
+                                                    1.2.3.4 Acceso directo amemoria. <br>
+                                                    1.2.3.5 Canales y procesadores de entrada/salida <br>
+                                                </p>
+                                                <dt> &nbsp; &nbsp; 1.2.4 Buses </dt>
+                                                <p class = "description">
+                                                    1.2.4.1 Tipos de buses <br>
+                                                    1.2.4.2 Estructura de los buses <br>
+                                                    1.2.4.3 Jerarquías de buses <br>
+                                                </p>
+                                                <dt> &nbsp; &nbsp; 1.2.5. Interrupciones </dt>
+                                            </dl>
+                                        </p>
+            
+                                        <button class="button" type="button" onclick="unidad1Boton()">¡Conoce más!</button>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+            
+                                        <div class="card-image">
+                                            <img src="media/UNIDADES/u2.png" alt="" class="card-img">
+                                        </div>
+                                    </div>
+            
+                                    <div class="card-content">
+                                        <h2 class="name">Unidad 2</h2>
+                                        <p class="description">
+                                            <dl>
+                                                <dt>2.1 Organización del Procesador</dt>
+                                                <dt>2.2 Estructura de Registros</dt>
+                                                    <dd>
+                                                        <p class = "description">
+                                                            2.2.1 Registros visibles para el usuario <br>
+                                                            2.2.2 Resgistros de control y de estados <br>
+                                                            2.2.3 Ejemplos de registros de CPU reales <br>
+                                                        </p>
+                                                    </dd>
+                                                <dt>2.3 El ciclo de instrucción</dt>
+                                                    <dd>
+                                                        <p class = "description">
+                                                            2.3.1 Ciclo Fetch-Decode-Execute <br>
+                                                            2.3.2 Segmentación de Instrucciones <br>
+                                                            2.3.3 Conjunto de instrucciones características y funciones <br>
+                                                            2.3.4 Modos de direccionamiento
+                                                        </p>
+                                                    </dd>
+                                                <dt>2.4 Casos de estudio de CPU reales</dt>
+                                            </dl>
+                                        </p>
+            
+                                        <button class="button" type = "button" onclick="unidad2Boton()">¡Conoce más!</button>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+            
+                                        <div class="card-image">
+                                            <img src="media/UNIDADES/u3.png" alt="" class="card-img">
+                                        </div>
+                                    </div>
+            
+                                    <div class="card-content">
+                                        <h2 class="name">
+                                            Unidad 3 <br>
+                                        </h2>
+                                        <p class="description">Selección de computadoras para ensamble de equipo de cómputo <br></p>
+                                        <p class ="description">
+                                            <dl>
+                                                <dt>3.1 Chipset</dt>
+                                                <dd>
+                                                    <p class = "description">
+                                                        3.1.1 Unidad Central de Procesamiento (CPU) <br>
+                                                        3.1.2 Controlador de Bus <br>
+                                                        3.1.3 Puertas de Entrada/Salida <br>
+                                                        3.1.4 Controlador de Interrupciones <br>
+                                                        3.1.5 Controlador de Acceso Directo a Memoria (DMA) <br>
+                                                        3.1.6 Circuitos de Temporización <br>
+                                                        3.1.7 Circuitos de Control <br>
+                                                        3.1.8 Controladores de Video <br>
+                                                    </p>
+                                                </dd>
+                                                <dt> 3.2 Aplicaciones</dt>
+                                                <dd>
+                                                    <p class = "description">
+                                                        3.2.1 Entrada/Salida <br>
+                                                        3.2.2 Almacenamiento <br>
+                                                        3.2.3 Fuentes de Alimentación <br>
+                                                    </p>
+                                                </dd>
+                                                <dt>3.3 Ambientes de Servicio</dt>
+                                                <dd>
+                                                    <p class = "description">
+                                                        3.3.1 Negocios <br>
+                                                        3.3.2 Industria <br>
+                                                        3.3.3 Comercio <br>
+                                                        3.3.4 Comercio Electrónico <br>
+                                                    </p>
+                                                </dd>
+                                            </dl>
+                                        </p>
+            
+                                        <button class="button" type = "button" onclick="unidad3Boton()">¡Conoce más!</button>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+            
+                                        <div class="card-image">
+                                            <img src="media/UNIDADES/u4.png" alt="" class="card-img">
+                                        </div>
+                                    </div>
+            
+                                    <div class="card-content">
+                                        <h2 class="name">Unidad 4</h2>
+                                        <p class="description">Procesamiento Paralelo</p>
+                                        <p class = "description">
+                                            <dl>
+                                                <dt>4.1 Aspectos Básicos de la Computación Paralela </dt>
+                                                <dt>4.2 Tipos de Computación Paralela </dt>
+                                                    <dd>
+                                                        <p class = "description">
+                                                            4.2.1 Clasificación <br>
+                                                            4.2.2 Arquitectura de Computadoras Secuenciales <br>
+                                                            4.2.3 Organización de Direcciones de Memoria
+                                                        </p>
+                                                    </dd>
+                                                <dt>4.3 Sistema de Memoria Compartida </dt>
+                                                    <dd>
+                                                        <p class="description">
+                                                            4.3.1 Redes de Interconexión Dinámica (indirecta) <br>
+                                                            Medio Compartida <br>
+                                                            Conmutadas
+                                                        </p>
+                                                    </dd>
+                                                <dt> 4.4 Sistema de Memoria Distribuida <br>
+                                                    Multicomputadores </dt>
+                                                    <dd>
+                                                        <p class="description">
+                                                            4.4.1 Redes de interconexión estáticas
+                                                        </p>
+                                                    </dd>
+                                                <dt>4.5 Casos para estudio</dt>
+                                            </dl>
+                                        </p>
+            
+                                        <button class="button"type = "button" onclick="unidad4Boton()">¡Conoce más!</button>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+            
+                                        <div class="card-image">
+                                            <img src="media/UNIDADES/practices.png" alt="" class="card-img">
+                                        </div>
+                                    </div>
+            
+                                    <div class="card-content">
+                                        <h2 class="name">Prácticas</h2>
+                                        <p class="description">
+                                            Prática 1 <br>
+                                            Práctica 2 <br>
+                                            Práctica 3 <br>
+                                            Práctica 4 <br>
+                                        </p>
+            
+                                        <button class="button"type = "button" onclick="practicas()">¡Prácticas!</button>
+                                    </div>
+                                </div>
+                                
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+            
+                                        <div class="card-image">
+                                            <img src="media/UNIDADES/yo.png" alt="" class="card-img">
+                                        </div>
+                                    </div>
+            
+                                    <div class="card-content">
+                                        <h2 class="name">Página creada por:</h2>
+                                        <p class="description">Alma Rosaura Mía Morales Ramírez <br> 21051474</p>
+            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="swiper-button-next swiper-navBtn"></div>
+                        <div class="swiper-button-prev swiper-navBtn"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </section>
+                <footer>
+                    <div class="footer-content">
+                        <h3>Arquitectura de Computadoras <br> 17:00 - 18:00</h3>
+                        <p>Instituto Tecnológico de Saltillo</p>
+                        <ul class="socials">
+                            <li><a href="https://www.facebook.com/TecNMcampusSaltillo"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/tecnmitsaltillo/"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://saltillo.tecnm.mx/"><i class="fa fa-google"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-bottom">
+                        <p>Ciclo Escolar Enero-Junio 2023. Alumna: <span>Alma Rosaura Mía Morales Ramírez 21051474</span></p>
+                    </div>
+                </footer>
+            </div>
+    
+        </body>
+    
+        <!-- Swiper JS -->
+        <script src="JS/swiper-bundle.min.js"></script>
+    
+        <!-- JavaScript -->
+        <script src="JS/script.js"></script>
+    </html>
+    
